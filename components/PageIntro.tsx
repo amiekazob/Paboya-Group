@@ -1,0 +1,23 @@
+type PageIntroProps = {
+  eyebrow: string;
+  title: string;
+  description: string;
+};
+
+export default function PageIntro({
+  eyebrow,
+  title,
+  description,
+}: PageIntroProps) {
+  return (
+    <section className="page-intro">
+      <div className="container page-intro__inner">
+        <div className="page-intro__copy">
+          <p className="eyebrow">{eyebrow}</p>
+          <h1>{title}</h1>
+          <p className="page-intro__description">{description}</p>
+        </div>
+      </div>
+    </section>
+  );
+}

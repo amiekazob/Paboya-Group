@@ -1,0 +1,208 @@
+.companies-page {
+  background: #fff;
+}
+
+.companies-hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 480px;
+  background: #770203;
+  color: var(--white);
+}
+
+.companies-hero__pattern {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(125deg, transparent 0 58%, rgb(255 255 255 / 6%) 58% 62%, transparent 62%),
+    linear-gradient(35deg, transparent 0 70%, rgb(255 255 255 / 4%) 70% 74%, transparent 74%),
+    radial-gradient(circle at 78% 25%, rgb(255 224 208 / 14%) 0 1px, transparent 1px);
+  background-size: auto, auto, 22px 22px;
+  opacity: .85;
+}
+
+.companies-hero__container {
+  position: relative;
+  z-index: 1;
+  padding-block: 18px 155px;
+}
+
+.companies-hero__breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 2px 15px;
+  color: rgb(255 255 255 / 68%);
+  font-size: 12px;
+}
+
+.companies-hero__breadcrumb a {
+  color: rgb(255 255 255 / 86%);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 160ms ease;
+}
+
+.companies-hero__breadcrumb a:hover {
+  color: var(--white);
+}
+
+.companies-hero__breadcrumb [aria-current="page"] {
+  color: rgb(255 255 255 / 58%);
+}
+
+.companies-hero__panel {
+  max-width: 830px;
+  padding-top: clamp(24px, 3vw, 40px);
+}
+
+.companies-hero__panel .eyebrow {
+  margin: 0;
+  color: #f0c4b4;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+
+.companies-hero__panel h1 {
+  max-width: 820px;
+  margin: 18px 0 0;
+  color: var(--white);
+  font-family: var(--serif);
+  font-size: clamp(52px, 8vw, 100px);
+  font-weight: 500;
+  letter-spacing: -.065em;
+  line-height: .94;
+}
+
+.companies-hero__description {
+  max-width: 570px;
+  margin: 25px 0 0;
+  color: rgb(255 255 255 / 78%);
+  font-family: var(--serif);
+  font-size: clamp(19px, 2.3vw, 28px);
+  line-height: 1.35;
+}
+
+.companies-hero__wave {
+  position: absolute;
+  z-index: 2;
+  right: -5%;
+  bottom: -1px;
+  left: -5%;
+  height: 82px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  background: #fff;
+}
+
+.companies-page > .section {
+  padding-block: clamp(48px, 6vw, 78px);
+}
+
+.companies-page > .section:last-of-type {
+  position: relative;
+  overflow: hidden;
+  padding-top: 112px;
+  background: #f5f3ef;
+}
+
+.companies-page > .section:last-of-type::before {
+  position: absolute;
+  top: -1px;
+  right: -5%;
+  left: -5%;
+  height: 70px;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  background: #fff;
+  content: "";
+}
+
+.companies-page > .section:last-of-type > .container {
+  position: relative;
+  z-index: 1;
+}
+
+.companies-page-grid .company-card {
+  animation: companies-card-arrive 650ms cubic-bezier(.2,.75,.25,1) both;
+}
+
+.companies-page-grid .company-card:nth-child(2) { animation-delay: 55ms; }
+.companies-page-grid .company-card:nth-child(3) { animation-delay: 110ms; }
+.companies-page-grid .company-card:nth-child(4) { animation-delay: 165ms; }
+.companies-page-grid .company-card:nth-child(5) { animation-delay: 220ms; }
+.companies-page-grid .company-card:nth-child(6) { animation-delay: 275ms; }
+.companies-page-grid .company-card:nth-child(7) { animation-delay: 330ms; }
+.companies-page-grid .company-card:nth-child(8) { animation-delay: 385ms; }
+
+@keyframes companies-hero-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes companies-card-arrive {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .companies-hero {
+    min-height: 450px;
+  }
+
+  .companies-hero__container {
+    padding-top: 12px;
+    padding-bottom: 125px;
+  }
+
+  .companies-hero__breadcrumb {
+    gap: 10px;
+    padding-bottom: 12px;
+    font-size: 11px;
+  }
+
+  .companies-hero__panel {
+    padding-top: 28px;
+  }
+
+  .companies-hero__panel h1 {
+    font-size: clamp(50px, 14vw, 76px);
+  }
+
+  .companies-hero__description {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .companies-page > .section {
+    padding-block: 38px 48px;
+  }
+
+  .companies-page > .section:last-of-type {
+    padding-top: 92px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .companies-page-grid .company-card {
+    animation: none;
+  }
+}
+
+.company-card {
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+.company-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}

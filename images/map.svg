@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="Map Location">
+  <rect width="640" height="320" rx="16" fill="#f3f4f6"/>
+  <g fill="none" stroke="#d1d5db" stroke-width="2">
+    <path d="M0 40h640M0 80h640M0 120h640M0 160h640M0 200h640M0 240h640M0 280h640"/>
+    <path d="M80 0v320M160 0v320M240 0v320M320 0v320M400 0v320M480 0v320M560 0v320"/>
+  </g>
+  <g transform="translate(360,90)">
+    <path d="M60 0c-33 0-60 24-60 54 0 36 60 110 60 110s60-74 60-110C120 24 93 0 60 0z" fill="#770203"/>
+    <circle cx="60" cy="54" r="20" fill="#fff"/>
+  </g>
+</svg>

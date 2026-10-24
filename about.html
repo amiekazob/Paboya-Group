@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paboya Group | About</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/about.css">
+  <script>
+    tailwind = tailwind || {};
+    tailwind.config = { theme: { extend: { colors: { brand: '#770203' } } } };
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+  <header class="fixed top-0 inset-x-0 z-50 bg-brand text-white">
+    <nav class="max-w-7xl mx-auto px-4">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-3">
+          <img src="images/logos/paboya-logo.jpg" alt="Paboya Group logo" class="h-12 w-12">
+          <span class="text-xl font-semibold tracking-wide">Paboya Group</span>
+        </a>
+        <button id="menu-toggle" class="md:hidden inline-flex items-center justify-center p-2 rounded hover:bg-white/10 focus:outline-none">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+        <ul class="hidden md:flex items-center gap-6 text-sm font-medium">
+          <li><a class="hover:underline" href="index.html">Home</a></li>
+          <li><a class="hover:underline" href="about.html">About Us</a></li>
+          <li><a class="hover:underline" href="chairman-message.html">Chairman's Message</a></li>
+          <li><a class="hover:underline" href="companies.html">Our Companies</a></li>
+          <li><a class="hover:underline" href="industries.html">Industries</a></li>
+          <li><a class="hover:underline" href="csr.html">Corporate Responsibility</a></li>
+          <li><a class="hover:underline" href="news.html">News & Updates</a></li>
+          <li><a class="hover:underline" href="careers.html">Careers</a></li>
+          <li><a class="hover:underline" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <ul id="mobile-menu" class="md:hidden hidden flex-col gap-2 pb-4 text-sm font-medium">
+        <li><a class="block px-3 py-2 rounded hover:bg-white/10" href="index.html">Home</a></li>
+        <li><a class="block px-3 py-2 rounded hover:bg-white/10" href="about.html">About Us</a></li>
+        <li><a class="block px-3 py-2 rounded hover:bg-white/10" href="chairman-message.html">Chairman's Message</a></li>
+        <li><a class="block px-3 py-2 rounded hover:bg-white/10" href="companies.html">Our Companies</a></li>
+        <li><a class="block px-3 py-2 rounded hover:bg-white/10" href="industries.html">Industries</a></li>
+        <li><a class="block px-3 py-2 rounded hover:bg-white/10" href="csr.html">Corporate Responsibility</a></li>
+        <li><a class="block px-3 py-2 rounded hover:bg-white/10" href="news.html">News & Updates</a></li>
+        <li><a class="block px-3 py-2 rounded hover:bg-white/10" href="careers.html">Careers</a></li>
+        <li><a class="block px-3 py-2 rounded hover:bg-white/10" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page">
+    <section class="bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 py-12">
+        <h1 class="text-3xl font-bold text-gray-900">About Paboya Group</h1>
+        <p class="text-gray-700 mt-3">Paboya Group is a diversified industrial group committed to building world-class capabilities across strategic sectors. We pursue disciplined growth, operational excellence and responsible business to create long-term value.</p>
+      </div>
+    </section>
+    <section class="max-w-7xl mx-auto px-4 py-12 grid lg:grid-cols-2 gap-10">
+      <div>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Group Overview</h2>
+        <p class="text-gray-700 leading-relaxed">Our portfolio spans pharmaceuticals, textile, leather, agriculture, fisheries, logistics and general business. We combine industrial expertise with governance and technology to deliver reliable products and services.</p>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <img src="images/overview-1.svg" alt="Operations overview" class="h-32 w-full object-cover rounded bg-white">
+        <img src="images/overview-2.svg" alt="Quality systems" class="h-32 w-full object-cover rounded bg-white">
+        <img src="images/overview-3.svg" alt="Sustainability" class="h-32 w-full object-cover rounded bg-white">
+        <img src="images/overview-4.svg" alt="Growth story" class="h-32 w-full object-cover rounded bg-white">
+      </div>
+    </section>
+    <section class="bg-white">
+      <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
+        <div class="value-badge">
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Mission</h3>
+          <p class="text-gray-700">To build competitive, resilient and sustainable industrial enterprises that improve lives and enable national development.</p>
+        </div>
+        <div class="value-badge">
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Vision</h3>
+          <p class="text-gray-700">To be a trusted industrial leader known for innovation, integrity and impact.</p>
+        </div>
+        <div class="value-badge">
+          <h3 class="text-xl font-semibold text-gray-900 mb-2">Core Values</h3>
+          <ul class="text-gray-700 space-y-1">
+            <li>Integrity</li>
+            <li>Excellence</li>
+            <li>Innovation</li>
+            <li>Sustainability</li>
+            <li>Respect</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 py-12">
+        <h3 class="text-2xl font-semibold text-gray-900 mb-4">Corporate Philosophy</h3>
+        <p class="text-gray-700">We operate with a long-term mindset, invest in people and systems, and uphold high standards of governance. Our philosophy blends entrepreneurial drive with responsible stewardship.</p>
+      </div>
+    </section>
+    <section class="max-w-7xl mx-auto px-4 py-12">
+      <h3 class="text-2xl font-semibold text-gray-900 mb-6">Growth Story</h3>
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="p-5 border rounded">
+          <div class="text-brand font-semibold">Foundation</div>
+          <p class="text-sm text-gray-700 mt-2">Established roots in trading and general business.</p>
+        </div>
+        <div class="p-5 border rounded">
+          <div class="text-brand font-semibold">Expansion</div>
+          <p class="text-sm text-gray-700 mt-2">Entered strategic manufacturing and processing sectors.</p>
+        </div>
+        <div class="p-5 border rounded">
+          <div class="text-brand font-semibold">Diversification</div>
+          <p class="text-sm text-gray-700 mt-2">Built presence across pharmaceuticals, textile and logistics.</p>
+        </div>
+        <div class="p-5 border rounded">
+          <div class="text-brand font-semibold">Future</div>
+          <p class="text-sm text-gray-700 mt-2">Scaling sustainably with technology and capability investments.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-brand text-white">
+    <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-4 gap-8">
+      <div>
+        <div class="flex items-center gap-3">
+          <img src="images/logos/paboya-logo.jpg" alt="Paboya Group logo" class="h-12 w-12">
+          <div class="text-lg font-semibold">Paboya Group</div>
+        </div>
+        <p class="text-white/80 mt-4 text-sm">A diversified industrial group focused on sustainable growth and development across nations.</p>
+      </div>
+      <div>
+        <div class="font-semibold mb-3">Company</div>
+        <ul class="space-y-2 text-sm">
+          <li><a class="footer-link" href="about.html">About</a></li>
+          <li><a class="footer-link" href="companies.html">Companies</a></li>
+          <li><a class="footer-link" href="industries.html">Industries</a></li>
+          <li><a class="footer-link" href="careers.html">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="font-semibold mb-3">Resources</div>
+        <ul class="space-y-2 text-sm">
+          <li><a class="footer-link" href="news.html">News & Updates</a></li>
+          <li><a class="footer-link" href="csr.html">Corporate Responsibility</a></li>
+          <li><a class="footer-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="font-semibold mb-3">Contact</div>
+        <p class="text-sm">Corporate office<br>3/D, Kabbokosh Building<br>Kawran Bazar, Opposite the Directorate General of Family Planning (DGFP)<br>Ministry of Health and Family Welfare<br>Dhaka–1215, Bangladesh</p>
+        <p class="text-sm mt-2">Email: info@paboyagroup.com<br>Phone: 01830-941595</p>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 py-4 text-sm text-white/80">© <span id="year"></span> Paboya Group. All rights reserved.</div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('menu-toggle')?.addEventListener('click', function () {
+      var m = document.getElementById('mobile-menu');
+      if (m) m.classList.toggle('hidden');
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

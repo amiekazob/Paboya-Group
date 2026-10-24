@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 192" role="img" aria-label="News Image 2">
+  <rect width="512" height="192" rx="12" fill="#f3f4f6"/>
+  <g fill="none" stroke="#770203" stroke-width="6">
+    <rect x="28" y="28" width="456" height="64" rx="10"/>
+    <rect x="28" y="104" width="220" height="60" rx="10"/>
+    <rect x="260" y="104" width="224" height="60" rx="10"/>
+  </g>
+</svg>

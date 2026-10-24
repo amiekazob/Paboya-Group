@@ -1,0 +1,4 @@
+.value-badge {
+  border-left: 4px solid var(--brand);
+  padding-left: 0.75rem;
+}

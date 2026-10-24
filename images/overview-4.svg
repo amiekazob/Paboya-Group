@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 128" role="img" aria-label="Growth Story">
+  <rect width="256" height="128" rx="12" fill="#f3f4f6"/>
+  <g fill="none" stroke="#770203" stroke-width="6">
+    <path d="M28 96l48-32 40 20 48-44 32 24" />
+    <path d="M28 96h200" stroke-width="4" opacity="0.5"/>
+  </g>
+</svg>

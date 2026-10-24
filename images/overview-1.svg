@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 128" role="img" aria-label="Operations Overview">
+  <rect width="256" height="128" rx="12" fill="#f3f4f6"/>
+  <g stroke="#770203" stroke-width="6" fill="none">
+    <rect x="28" y="36" width="60" height="56" rx="6"/>
+    <rect x="100" y="24" width="60" height="68" rx="6"/>
+    <rect x="172" y="44" width="56" height="48" rx="6"/>
+    <path d="M58 92v18M130 92v18M200 92v18" stroke-width="4"/>
+  </g>
+</svg>

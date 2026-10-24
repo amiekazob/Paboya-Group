@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 128" role="img" aria-label="Sustainability">
+  <rect width="256" height="128" rx="12" fill="#f3f4f6"/>
+  <g>
+    <path d="M32 96c48-72 96-72 192 0" fill="none" stroke="#770203" stroke-width="6"/>
+    <circle cx="64" cy="64" r="18" fill="#770203" opacity="0.8"/>
+    <circle cx="128" cy="48" r="18" fill="#770203" opacity="0.6"/>
+    <circle cx="192" cy="64" r="18" fill="#770203" opacity="0.8"/>
+  </g>
+</svg>
