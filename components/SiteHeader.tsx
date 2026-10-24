@@ -26,7 +26,7 @@ export default function SiteHeader() {
           <Link
             aria-label="Paboya Group home — return to page start"
             className="brand"
-            href="/#main-content"
+            href="/"
             onClick={closeMenu}
           >
             <Image
